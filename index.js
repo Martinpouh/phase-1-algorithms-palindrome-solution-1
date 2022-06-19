@@ -6,7 +6,7 @@ function isPalindrome(word) {
     return word == reverseString(word)
 }
 
-/* LONGER VERSION WITH EXPLANATIONS
+/* 
 function reverseString(word) {
   // create an array from the input string
   const wordArray = word.split("");
@@ -30,8 +30,7 @@ function isPalindrome(word) {
 */
 
 /* Add your pseudocode here
-  reverse the input string
-  if the reversed string is the same as the input
+  reverse the input string if the reversed string is the same as the input
     return true
   else
     return false  
